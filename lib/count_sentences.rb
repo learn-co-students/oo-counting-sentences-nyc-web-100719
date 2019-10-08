@@ -18,6 +18,6 @@ class String
     delimiters = ['. ', '? ', '! ', '...']
     new_sentence = self.split(Regexp.union(delimiters))
     new_sentence.count
-    binding.pry
+    
   end
 end
